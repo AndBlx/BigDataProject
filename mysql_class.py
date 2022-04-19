@@ -7,11 +7,11 @@ from sqlalchemy import create_engine, Column, String, Integer, DateTime, Boolean
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import backref, relationship, sessionmaker
 
-username = "oudshob2"
-password = "TXs3fpOIPdIt$q"
-server = "oege.ie.hva.nl"
-port = "3306"
-database = "zoudshob2"
+username = "-"
+password = "-"
+server = "-"
+port = "-"
+database = "-"
 
 engine = create_engine(
     'mysql+mysqlconnector://' + username + ':' + password + '@' + server + ':' + port + '/' + database + '')
